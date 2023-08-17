@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shyhairs</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+      </style>
+</head>
+<body id="body">
+    <header class="header">
+        
+            <div class="logo">
+                <a href="../index.html" ><img src="../images/TYLER PNG.png" alt="logo" >
+               </a> </div>
+            
+            
+       <div class="menu">
+               <a href="titulo"></a>
+          <nav>
+          <ul>
+            <li><a href="../index.html">INICIO</a></li>
+                  <li><a href="servicios.html">SERVICIOS</a></li>
+                  <li><a href="nosotros.html">NOSOTROS</a></li>
+                  <li><a href="reservar.html">RESERVAR</a></li>
+              </ul>
+          </nav>
+      </div>
+      </header>   
+
+      <main>
+
+        <section>
+    <form >
+    
+    <label  for="nombre">Nombre</label>
+    <input type="text" required name="nombre">
+    <br>
+    <label for="mail">Mail</label>
+    <input type="email" name="mail" required>
+    <br>
+    <label for="telefono">Numero</label>
+    <input type="number">
+    <br>
+    
+    <!-- radio una sola opcion-->
+    <label for="sexo">genero</label>
+    <input type="radio" name="sexo" value="F" > femenino
+    <input type="radio" name="sexo" value="M" > masculino
+   
+    <br>
+    <!-- checkbox una o todas las pociones -->
+    <label for="terminos" >acepta terminos y condiciones</label>
+    <input type="checkbox" name="terminos" >
+    <br>
+    <!-- menu desplegable -->
+    <label for="pais">pais</label>
+    <select name="pais">
+    <option value="arg">argentina</option>
+    <option value="br">brasil</option>
+    <option value="uy">uruguay</option> 
+    </select>
+    <br>
+    
+    <!-- conjunto de campo  -->
+    <fieldset>
+    <legend>datos de envio</legend>
+    <label for="direccion">ingresa tu direccion</label>
+    <input type="text" name="direccion" >
+    </fieldset>
+    
+    
+    <br>
+   
+    <input type="reset" value="borrar">
+    <input type="submit" value="enviar">
+    </form>
+    
+    
+    </main>
+    <footer id="footer"
+>
+    
+<img src="../images/instagram-svgrepo-com.svg" alt="ig icon" class="igicon">
+<img src="../images/whatsapp-svgrepo-com.svg" alt="wpp icon" class="wppicon">
+
+
+</footer>
+</body>
+</html>

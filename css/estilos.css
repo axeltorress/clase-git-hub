@@ -1,0 +1,204 @@
+
+/* reset */
+
+ 
+
+*{
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+}
+
+
+
+
+
+#body
+{
+background-color: #5E5E5E;
+margin: 0px;
+}
+
+main{
+width: auto;
+height: 75vh;
+margin: 0;
+
+
+
+}
+
+
+header {
+    background-color: #3f3f3f; /* Cambia el color de fondo del header según tus necesidades */
+    color: #fff; /* Cambia el color del texto del header según tus necesidades */
+    padding: 0;
+    margin: 0;
+    position: relative; /* Agregamos posicionamiento relativo al header */
+  }
+  
+  /* Estilos para el menú de navegación */
+  nav {
+    position: absolute; /* Posicionamos el menú de navegación de manera absoluta */
+    top: 100%; /* Colocamos el menú justo debajo del header */
+    left: 0;
+    background-color: #444; /* Cambia el color de fondo del menú según tus necesidades */
+    padding: 10px;
+    display: contents; /* Ocultamos el menú por defecto */
+  }
+  
+  /* Estilos para los elementos del menú */
+  nav ul {
+   margin-left: 450px;
+    margin-top: auto;
+    margin-bottom:auto;
+    margin-right: auto;
+    padding: auto;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    display: inline-block;
+  
+  }
+  
+  nav ul li a {
+    color: #ffffff; /* Cambia el color del texto del enlace según tus necesidades */
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+   
+
+  }
+  
+.logo img {
+  margin-left: 600px;
+    max-width: 100%; /* Ajustar el tamaño de la imagen al contenedor */
+    max-height: 100px; /* Establecer una altura máxima para el logo */
+   }
+
+  main {
+
+background-color: rgb(141, 141, 141);
+
+
+  }
+  
+  main img {
+
+height: 400px;
+width: 500px;
+margin-left: 100px;
+margin-top: 30px;
+}
+  
+/* SREVICIOS */
+.servicios img {
+    display: inline-block;
+    width: 300px;
+    height: 250px;
+    margin-top: 100px;
+}
+
+
+
+.links-servicios a{
+color: #ffffff;
+text-decoration: none;
+list-style: none;
+
+
+}
+  
+
+
+.corte{
+
+margin-left: 225px;
+}
+
+.color{
+margin-left: 350px;
+}
+
+.barba{
+
+margin-left: 350px;
+
+}
+
+
+
+
+
+
+
+/* nosotros */
+.barberiaa{
+margin-left: 400px;
+}
+
+.texto-nosotros{
+display: inline-block;
+text-align: center;
+
+
+}
+
+
+
+/* cortes */
+
+.cortess img {
+display: inline-block;
+width: 300px;
+height: 250px;
+margin-right: 40px;
+margin-top: 125px;
+
+
+}
+
+
+
+
+/* footer */
+#footer {
+    background-color: #414040;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 8vh;
+}
+
+footer img {
+margin-left: 1312px;
+
+
+}
+.igicon {
+width: 20px;
+height: 30px;
+position: fixed;
+    bottom: 0;
+    left: 0;
+
+}
+
+
+.wppicon{
+    width: 20px;
+    height: 30px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+
